@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+set -e
+
+tag="$(git describe --abbrev=0 2>/dev/null || echo)"
+tag="${tag#v}"
+[ "$tag" = '' ] && exit 0
+
+tag_gt_version=$(ruby -r ./lib/fixed_size_buffer/version -e "puts FixedSizeBuffer.version >= Gem::Version.new('${tag}')")
+test "$tag_gt_version" = true
