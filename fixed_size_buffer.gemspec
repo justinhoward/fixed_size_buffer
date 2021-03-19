@@ -14,8 +14,10 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/justinhoward/fixed_size_buffer'
   spec.license = 'MIT'
 
+  rubydoc = 'https://www.rubydoc.info/gems'
   spec.metadata = {
-    'changelog_uri' => 'https://github.com/justinhoward/fixed_size_buffer/blob/master/CHANGELOG.md'
+    'changelog_uri' => "#{spec.homepage}/blob/master/CHANGELOG.md",
+    'documentation_uri' => "#{rubydoc}/#{spec.name}/#{spec.version}"
   }
 
   spec.files = Dir['*.md', '*.txt', 'lib/**/*.rb']
