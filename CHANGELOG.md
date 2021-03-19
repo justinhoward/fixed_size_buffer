@@ -1,3 +1,8 @@
+Release v0.1.2
+====================
+
+Fix rubydoc.info documentation
+
 Release v0.1.1
 ====================
 

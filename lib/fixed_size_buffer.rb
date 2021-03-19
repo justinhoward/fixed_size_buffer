@@ -58,13 +58,17 @@ require 'fixed_size_buffer/version'
 # and a full buffer (write pointer just before read pointer). The value
 # in-between the read and write pointers for a full buffer will not be read.
 class FixedSizeBuffer
+  # The capacity given to {.new}
   attr_reader :capacity
 
   # Create a new empty {FixedSizeBuffer}
   #
   # Start state
+  #
+  # ```text
   #  rw
   # |  |  |  |  |
+  # ```
   #
   # @param capacity [Integer] The number of items this buffer can hold
   def initialize(capacity)

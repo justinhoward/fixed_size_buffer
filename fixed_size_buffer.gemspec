@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
     'documentation_uri' => "#{rubydoc}/#{spec.name}/#{spec.version}"
   }
 
-  spec.files = Dir['*.md', '*.txt', 'lib/**/*.rb']
+  spec.files = Dir['*.md', '*.txt', 'lib/**/*.rb', '.yardopts']
   spec.require_paths = ['lib']
 
   spec.required_ruby_version = '>= 2.3'
