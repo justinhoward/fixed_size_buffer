@@ -23,6 +23,7 @@ jobs:
         if: matrix.ruby == '2.7'
       - run: bundle exec rspec --format doc
       - name: Run codacy-coverage-reporter
+        if: matrix.ruby == '2.7'
         uses: codacy/codacy-coverage-reporter-action@master
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
