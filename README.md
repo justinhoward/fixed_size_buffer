@@ -4,7 +4,7 @@ FixedSizeBuffer
 [![Gem Version](https://badge.fury.io/rb/fixed_size_buffer.svg)](https://badge.fury.io/rb/fixed_size_buffer)
 [![CI](https://github.com/justinhoward/fixed_size_buffer/workflows/CI/badge.svg)](https://github.com/justinhoward/fixed_size_buffer/actions?query=workflow%3ACI+branch%3Amaster)
 [![Code Quality](https://app.codacy.com/project/badge/Grade/e647db61b5064a6e97fc20ffe7f0430e)](https://www.codacy.com/gh/justinhoward/fixed_size_buffer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=justinhoward/fixed_size_buffer&amp;utm_campaign=Badge_Grade)
-[![Code Coverage](https://app.codacy.com/project/badge/Grade/e647db61b5064a6e97fc20ffe7f0430e)](https://www.codacy.com/gh/justinhoward/fixed_size_buffer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=justinhoward/fixed_size_buffer&amp;utm_campaign=Badge_Grade)
+[![Code Coverage](https://app.codacy.com/project/badge/Coverage/e647db61b5064a6e97fc20ffe7f0430e)](https://www.codacy.com/gh/justinhoward/fixed_size_buffer/dashboard?utm_source=github.com&utm_medium=referral&utm_content=justinhoward/fixed_size_buffer&utm_campaign=Badge_Coverage)
 [![Inline docs](http://inch-ci.org/github/justinhoward/fixed_size_buffer.svg?branch=master)](http://inch-ci.org/github/justinhoward/fixed_size_buffer)
 
 A ring buffer with a fixed capacity
