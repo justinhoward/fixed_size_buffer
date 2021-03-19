@@ -65,6 +65,11 @@ RSpec.describe FixedSizeBuffer do
       expect(buffer.to_a).to eq([1, 2, 3])
       expect(buffer.read).to eq(1)
     end
+
+    it 'peeks without consuming' do
+      expect(buffer.peek).to eq(1)
+      expect(buffer.read).to eq(1)
+    end
   end
 
   # The state where the write pointer is in position
@@ -117,6 +122,10 @@ RSpec.describe FixedSizeBuffer do
 
     it 'reads nothing' do
       expect(buffer.read).to be_nil
+    end
+
+    it 'peeks nothing' do
+      expect(buffer.peek).to be_nil
     end
 
     it 'writes nothing' do
