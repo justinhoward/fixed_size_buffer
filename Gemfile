@@ -2,7 +2,6 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in strudel.gemspec
 gemspec
 
 not_jruby = %i[ruby mingw x64_mingw].freeze
